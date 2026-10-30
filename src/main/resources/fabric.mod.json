@@ -1,0 +1,34 @@
+
+
+{
+  "schemaVersion": 1,
+  "id": "kiteditor",
+  "version": "${version}",
+  "name": "KitEditor",
+  "description": "A Minecraft kit editor and inventory comparison tool.",
+  "authors": [
+    "Ravishankar"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ravishankar07-ops/kiteditor/",
+    "sources": "https://github.com/ravishankar07-ops/kiteditor/",
+    "issues": "https://github.com/ravishankar07-ops/kiteditor/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/kiteditor/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.ravishankar.kiteditor.KitEditor"
+    ],
+    "client": [
+      "com.ravishankar.kiteditor.KitEditorClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
